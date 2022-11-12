@@ -4,6 +4,7 @@ import { Button } from '@mui/material';
 import Navbar from './Page/Navbar/Navbar';
 import Banner from './Page/Banner/Banner';
 import Features from './Page/Features/Features';
+import Portfolio from './Page/Portfolio/Portfolio';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar></Navbar>
       <Banner></Banner>
       <Features></Features>
+      <Portfolio></Portfolio>
     </div>
   );
 }
