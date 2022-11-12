@@ -3,7 +3,7 @@ import image from '../../img/image.png';
 
 const Banner = () => {
     return (
-        <div className='grid grid-cols-2 gap-2 py-20'>
+        <div className='grid grid:sm-cols-1 grid-cols-2 gap-2 py-20'>
             <div className='height-300 px-20'>
                 <h4 className='font-bold text-start p-5'>WELCOME TO MY WORLD</h4>
                 <h1 className='text-start p-5 font-bold text-4xl'>Hi I,m Imran Ahmed</h1>
