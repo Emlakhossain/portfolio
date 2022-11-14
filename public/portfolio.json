@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "image": "https://img.freepik.com/free-vector/flat-ui-ux-background_23-2149065799.jpg?w=2000",
+        "projectName": "UI Design "
+    },
+    {
+        "id": 2,
+        "image": "https://cdn.dribbble.com/users/6047818/screenshots/17529559/media/95003176f34dcb6302930d3855f455a1.png?compress=1&resize=400x300&vertical=top",
+        "projectName": "Doctors Chamber Application "
+    },
+    {
+        "id": 3,
+        "image": "https://cdn.dribbble.com/users/3819722/screenshots/15296100/media/9a90e32e778e5e80c557c21cb81ebc93.png?compress=1&resize=400x300",
+        "projectName": "Online Food delivery Application"
+    },
+    {
+        "id": 4,
+        "image": "https://cdn.dribbble.com/users/2778493/screenshots/9032232/media/20fcdc5a06fe92dbee26f5ae7679b5a5.png?compress=1&resize=400x300&vertical=top",
+        "projectName": "Leaders Board Application"
+    },
+    {
+        "id": 5,
+        "image": "https://user-images.githubusercontent.com/63062052/121948153-80495500-cd1c-11eb-8930-e2806239e386.png",
+        "projectName": "Rest Country Application"
+    },
+    {
+        "id": 6,
+        "image": "https://i.pinimg.com/originals/db/30/1d/db301db3595411c12a003408301c683e.png",
+        "projectName": "Travel Application "
+    }
+]

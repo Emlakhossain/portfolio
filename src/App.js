@@ -4,7 +4,7 @@ import { Button } from '@mui/material';
 import Navbar from './Page/Navbar/Navbar';
 import Banner from './Page/Banner/Banner';
 import Features from './Page/Features/Features';
-import Portfolio from './Page/Portfolio/Portfolio';
+import Portfolio from './Page/Portfolio/MyPortfolio';
 
 function App() {
   return (
