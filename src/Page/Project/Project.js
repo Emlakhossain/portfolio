@@ -3,9 +3,9 @@ import React from 'react';
 const Project = ({ project }) => {
     const { image, projectName } = project;
     return (
-        <div class="card w-96 bg-slate-400 shadow-xl">
+        <div class="card w-96  shadow-xl">
             <figure><img src={image} alt="Shoes" /></figure>
-            <div class="card-body text-white">
+            <div class="card-body text-gray">
                 <h2 class="card-title">
                     {projectName}
                     <div class="badge badge-secondary">NEW</div>
