@@ -6,6 +6,7 @@ import Banner from './Page/Banner/Banner';
 import Features from './Page/Features/Features';
 import Portfolio from './Page/Portfolio/MyPortfolio';
 import Footer from './Page/Footer/Footer';
+import ContactUs from './Page/ContactUs/ContactUs';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Banner></Banner>
       <Features></Features>
       <Portfolio></Portfolio>
+      <ContactUs></ContactUs>
       <Footer></Footer>
     </div>
   );
