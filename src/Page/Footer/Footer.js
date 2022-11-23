@@ -4,7 +4,7 @@ import image from '../../img/image.png';
 const Footer = () => {
     return (
         <div>
-            <footer class="footer p-10 bg-gray-500 text-white justify-between">
+            <footer class="footer p-10 mt-20 bg-gray-500 text-white justify-between">
                 <div>
                     <span class="footer-title">Services</span>
                     <a class="link link-hover">Branding</a>
