@@ -11,13 +11,16 @@ const ContactUs = () => {
             <h2 className='font-bold text-5xl'>Contact With Me</h2>
 
             <div class="card card-side bg-base-100 shadow-xl py-20">
-                <div className='text-start pl-10 font-bold'>
-                    <h2 className='text-3xl font-bold'>Imran Ahmed</h2>
-                    <p className='font-bold'>Chief Operating Officer</p>
-                    <p >I am available for freelance work. <br /> Connect with me via and call in to my account.</p>
-                    <p>Contact - 01740284295</p>
-                    <p>Email: imranmarin1990@gmail.com</p>
-                    <img src="https://placeimg.com/200/280/arch" alt="Movie" />
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="https://placeimg.com/400/225/arch" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Imran Ahmed</h2>
+                        <p>Chife Operating Officer</p>
+                        <p>Hello I am professional web application developer last year to running month</p>
+
+                    </div>
                 </div>
                 <div class="card-body">
 
