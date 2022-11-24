@@ -15,8 +15,8 @@ const ContactUs = () => {
                     <figure class="px-10 pt-10">
                         <img src="https://placeimg.com/400/225/arch" alt="Shoes" class="rounded-xl" />
                     </figure>
-                    <div class="card-body items-center text-center">
-                        <h2 class="card-title">Imran Ahmed</h2>
+                    <div className="card-body items-center text-start">
+                        <h2 className="card-title">Imran Ahmed</h2>
                         <p>Chife Operating Officer</p>
                         <p>Hello I am professional web application developer last year to running month</p>
 

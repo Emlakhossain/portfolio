@@ -7,14 +7,16 @@ import Features from './Page/Features/Features';
 import Portfolio from './Page/Portfolio/MyPortfolio';
 import Footer from './Page/Footer/Footer';
 import ContactUs from './Page/ContactUs/ContactUs';
+import MySkils from './Page/MySkils/MySkils';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App ">
       <Navbar></Navbar>
       <Banner></Banner>
       <Features></Features>
       <Portfolio></Portfolio>
+      <MySkils></MySkils>
       <ContactUs></ContactUs>
       <Footer></Footer>
     </div>
