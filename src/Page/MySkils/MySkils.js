@@ -22,15 +22,15 @@ const MySkils = () => {
                 <div className='px-10'>
                     <h3 className='text-3xl font-bold'>Design skills:</h3>
                     <p className='text-start font-bold'>Adobe Photoshop:</p>
-                    <p><input type="range" min="0" max="100" value="90" class="range range-xs range-secondary" /></p>
+                    <p><input type="range" min="0" max="100" value="90" class="range range-xs range-success" /></p>
                     <p className='text-start font-bold'>Figma:</p>
-                    <p><input type="range" min="0" max="100" value="80" class="range range-xs range-secondary" /></p>
+                    <p><input type="range" min="0" max="100" value="80" class="range range-xs range-success" /></p>
                     <p className='text-start font-bold'>Design:</p>
-                    <p><input type="range" min="0" max="100" value="65" class="range range-xs range-secondary" /></p>
+                    <p><input type="range" min="0" max="100" value="65" class="range range-xs range-success" /></p>
                     <p className='text-start font-bold'>GIT:</p>
-                    <p><input type="range" min="0" max="100" value="60" class="range range-xs range-secondary" /></p>
+                    <p><input type="range" min="0" max="100" value="60" class="range range-xs range-success" /></p>
                     <p className='text-start font-bold'>PLUGIN:</p>
-                    <p><input type="range" min="0" max="100" value="70" class="range range-xs range-secondary" /></p>
+                    <p><input type="range" min="0" max="100" value="70" class="range range-xs range-success" /></p>
                 </div>
             </div>
         </div>

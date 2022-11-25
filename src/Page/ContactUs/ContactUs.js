@@ -1,5 +1,6 @@
 import React from 'react';
 import { useForm } from "react-hook-form";
+import image from '../../img/image.png';
 
 const ContactUs = () => {
 
@@ -10,10 +11,10 @@ const ContactUs = () => {
             <p className='font-bold'>CONTACT</p>
             <h2 className='font-bold text-5xl'>Contact With Me</h2>
 
-            <div class="card card-side bg-base-100 shadow-xl py-20">
+            <div class=" grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 card card-side bg-base-100 shadow-xl py-20">
                 <div class="card w-96 bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
-                        <img src="https://placeimg.com/400/225/arch" alt="Shoes" class="rounded-xl" />
+                        <img src={image} alt="Shoes" class="rounded-xl" />
                     </figure>
                     <div className="card-body items-center text-start">
                         <h2 className="card-title">Imran Ahmed</h2>
@@ -22,9 +23,10 @@ const ContactUs = () => {
 
                     </div>
                 </div>
-                <div class="card-body">
+                <div class="card-body ">
 
                     <form onSubmit={handleSubmit(onSubmit)}>
+                        <p className='text-center font-bold mb-5'>Fill the box and send us your required</p>
                         <input type="Text" placeholder="Name here" class="input input-bordered input-secondary w-full max-w-xs" required />
                         <br />
                         <input type="email" placeholder="Email" className=" my-3 input input-bordered input-secondary w-full max-w-xs" required />
