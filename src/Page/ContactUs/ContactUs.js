@@ -11,8 +11,8 @@ const ContactUs = () => {
             <p className='font-bold'>CONTACT</p>
             <h2 className='font-bold text-5xl'>Contact With Me</h2>
 
-            <div class=" grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 card card-side bg-base-100 shadow-xl py-20">
-                <div class="card w-96 bg-base-100 shadow-xl">
+            <div class=" grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 card card-side bg-base-100  py-20">
+                <div class="card w-96 bg-base-100 ">
                     <figure class="px-10 pt-10">
                         <img src={image} alt="Shoes" class="rounded-xl" />
                     </figure>
