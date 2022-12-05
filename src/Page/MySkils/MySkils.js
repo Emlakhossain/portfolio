@@ -3,10 +3,14 @@ import './MySkills.css';
 
 const MySkils = () => {
     return (
-        <div>
-            <h2 className='text-3xl font-bold my-20'>My Skills</h2>
-            <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-5'>
+        <div className='mt-40'>
+            <div className='text-center pl-5'>
+                <p className='font-bold text-info'>Why You Choose Me?</p>
+                <h2 className='text-3xl font-bold '>My Skills</h2>
+            </div>
+            <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-5 pt-20'>
                 <div className='pl-10'>
+
                     <h3 className='text-3xl font-bold'>Developer Skills:</h3>
                     <p className='text-start font-bold'>HTML5:</p>
                     <p><input type="range" min="0" max="100" value="90" class="range range-xs range-secondary" /></p>

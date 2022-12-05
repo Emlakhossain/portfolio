@@ -8,6 +8,7 @@ import Portfolio from './Page/Portfolio/MyPortfolio';
 import Footer from './Page/Footer/Footer';
 import ContactUs from './Page/ContactUs/ContactUs';
 import MySkils from './Page/MySkils/MySkils';
+import AboutMe from './Page/AboutMe/AboutMe';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Banner></Banner>
       <Features></Features>
       <Portfolio></Portfolio>
+      <AboutMe></AboutMe>
       <MySkils></MySkils>
       <ContactUs></ContactUs>
       <Footer></Footer>

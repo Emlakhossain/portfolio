@@ -7,7 +7,7 @@ const ContactUs = () => {
     const { register, handleSubmit } = useForm();
     const onSubmit = data => console.log(data);
     return (
-        <div className='py-40'>
+        <div className='mt-20'>
             <p className='font-bold'>CONTACT</p>
             <h2 className='font-bold text-5xl'>Contact With Me</h2>
 
