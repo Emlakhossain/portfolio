@@ -7,19 +7,22 @@ import Features from './Page/Features/Features';
 import Portfolio from './Page/Portfolio/MyPortfolio';
 import Footer from './Page/Footer/Footer';
 import ContactUs from './Page/ContactUs/ContactUs';
-import MySkils from './Page/MySkils/MySkils';
+import MySkils from './Page/MySkills/MySkills';
 import AboutMe from './Page/AboutMe/AboutMe';
+import Resume from './Page/Resume/Resume';
+import { Route, Router, Routes } from 'react-router-dom';
+import Home from './Page/Home/Home';
 
 function App() {
   return (
     <div className="App ">
       <Navbar></Navbar>
-      <Banner></Banner>
-      <Features></Features>
-      <Portfolio></Portfolio>
-      <AboutMe></AboutMe>
-      <MySkils></MySkils>
-      <ContactUs></ContactUs>
+      <Routes>
+        <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/about' element={<AboutMe></AboutMe>}></Route>
+        <Route path='/feature' element={<Features></Features>}></Route>
+        <Route path='/resume' element={<Banner></Banner>}> Resume</Route>
+      </Routes>
       <Footer></Footer>
     </div>
   );

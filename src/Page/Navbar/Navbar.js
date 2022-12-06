@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import image from '../../img/image.png';
 
 const Navbar = () => {
@@ -16,8 +17,9 @@ const Navbar = () => {
             </div>
             <div class="flex-none">
                 <ul class="menu menu-horizontal p-0">
-                    <li><a>Resume</a></li>
-                    <li><a>About Me</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li> <Link to="/about">About Me</Link></li>
+                    <li><Link to="/feature">Feature</Link></li>
                     <li><a>Experts</a></li>
                     <li><a>Contact Me</a></li>
                 </ul>

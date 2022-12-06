@@ -13,7 +13,7 @@ const Features = () => {
     return (
         <div className='p-5'>
             <div className=''>
-                <h4 className='font-bold  text-center pl-5'>FEATURES</h4>
+                <h4 className='font-bold  text-center pl-5 text-success'>FEATURES</h4>
                 <h2 className='text-5xl font-bold text-center pl-5'>What I Do</h2>
             </div>
             <div className='py-10 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-5'>

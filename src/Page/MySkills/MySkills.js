@@ -1,11 +1,10 @@
 import React from 'react';
 import './MySkills.css';
 
-const MySkils = () => {
+const MySkills = () => {
     return (
-        <div className='mt-40'>
-            <div className='text-center pl-5'>
-                <p className='font-bold text-info'>Why You Choose Me?</p>
+        <div className='mt-10'>
+            <div className='text-start pl-5'>
                 <h2 className='text-3xl font-bold '>My Skills</h2>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-5 pt-20'>
@@ -57,4 +56,4 @@ const MySkils = () => {
     );
 };
 
-export default MySkils;
+export default MySkills;
