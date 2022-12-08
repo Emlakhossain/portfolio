@@ -4,14 +4,11 @@ import { Button } from '@mui/material';
 import Navbar from './Page/Navbar/Navbar';
 import Banner from './Page/Banner/Banner';
 import Features from './Page/Features/Features';
-import Portfolio from './Page/Portfolio/MyPortfolio';
 import Footer from './Page/Footer/Footer';
-import ContactUs from './Page/ContactUs/ContactUs';
-import MySkils from './Page/MySkills/MySkills';
 import AboutMe from './Page/AboutMe/AboutMe';
-import Resume from './Page/Resume/Resume';
 import { Route, Router, Routes } from 'react-router-dom';
 import Home from './Page/Home/Home';
+import ContactUs from './Page/ContactUs/ContactUs';
 
 function App() {
   return (
@@ -21,6 +18,7 @@ function App() {
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/about' element={<AboutMe></AboutMe>}></Route>
         <Route path='/feature' element={<Features></Features>}></Route>
+        <Route path='/contact' element={<ContactUs></ContactUs>}></Route>
         <Route path='/resume' element={<Banner></Banner>}> Resume</Route>
       </Routes>
       <Footer></Footer>

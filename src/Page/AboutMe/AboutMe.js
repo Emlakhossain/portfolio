@@ -16,17 +16,17 @@ const AboutMe = () => {
                     <p className='font-bold'>Contact Number: +8801740284295</p>
                     <p className='font-bold'>Email: imranmarin1990@gmail.com</p>
                     <h4 className='text-2xl font-bold mt-5 text-success'>My Interests</h4>
-                    <div className='flex gap-10 font-bold'>
-                        <div>
+                    <div className='flex gap-10 font-bold '>
+                        <div className='shadow-lg rounded p-1 '>
                             <p>Music</p>
                         </div>
-                        <div>
+                        <div className='shadow-lg rounded p-1 '>
                             <p>Travel</p>
                         </div>
-                        <div>
+                        <div className='shadow-lg rounded p-1 '>
                             <p>Photo</p>
                         </div>
-                        <div>
+                        <div className='shadow-lg rounded p-1 '>
                             <p>Sports</p>
                         </div>
                     </div>

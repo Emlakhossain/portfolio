@@ -3,14 +3,15 @@ import './MySkills.css';
 
 const MySkills = () => {
     return (
-        <div className='mt-10'>
-            <div className='text-start pl-5'>
+        <div className='my-40 bg-gray-200 py-20 '>
+            <div className='text-center pl-5'>
+                <p className='font-bold text-info'>Why You chose me?</p>
                 <h2 className='text-3xl font-bold '>My Skills</h2>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-5 pt-20'>
                 <div className='pl-10'>
 
-                    <h3 className='text-3xl font-bold'>Developer Skills:</h3>
+                    <p className='text-2xl font-bold pb-4'>Developer Skills:</p>
                     <p className='text-start font-bold'>HTML5:</p>
                     <p><input type="range" min="0" max="100" value="90" class="range range-xs range-secondary" /></p>
                     <p className='text-start font-bold'>CSS:</p>
@@ -23,7 +24,7 @@ const MySkills = () => {
                     <p><input type="range" min="0" max="100" value="70" class="range range-xs range-secondary" /></p>
                 </div>
                 <div className='px-10'>
-                    <h3 className='text-3xl font-bold'>Design skills:</h3>
+                    <p className='text-2xl font-bold pb-4'>Design skills:</p>
                     <div className='flex justify-between'>
                         <p className='text-start font-bold'>Adobe Photoshop:</p>
                         <p className='font-bold text-end'>90%</p>

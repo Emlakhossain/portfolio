@@ -1,44 +1,23 @@
 import React from 'react';
-import { useForm } from "react-hook-form";
-import image from '../../img/image.png';
 
 const ContactUs = () => {
-
-    const { register, handleSubmit } = useForm();
-    const onSubmit = data => console.log(data);
     return (
-        <div className='mt-20'>
-            <p className='font-bold'>CONTACT</p>
-            <h2 className='font-bold text-5xl'>Contact With Me</h2>
+        <div className='my-20'>
+            <p className='text-center text-info'>Contact ME</p>
+            <h3 className='text-2xl font-bold mb-10'>Get In Touch</h3>
+            <div class="grid grid-rows-3 grid-flow-col gap-4">
+                <div class="row-span-3 gap-5">
 
-            <div class=" grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 card card-side bg-base-100  py-20">
-                <div class="card w-96 bg-base-100 ">
-                    <figure class="px-10 pt-10">
-                        <img src={image} alt="Shoes" class="rounded-xl" />
-                    </figure>
-                    <div className="card-body items-center text-start">
-                        <h2 className="card-title">Imran Ahmed</h2>
-                        <p>Chife Operating Officer</p>
-                        <p>Hello I am professional web application developer last year to running month</p>
-
+                    <div className='flex justify-between gap-5 ml-5'>
+                        <input type="text" placeholder='Name' className='border border-indigo-600  p-2  w-2/4 ' />
+                        <input type="email" placeholder='Email' className='border border-indigo-600 w-2/4 px-2 ml-5' />
                     </div>
+                    <input type="text" placeholder="Type here" class="border border-indigo-600 mt-2 p-2 w-full ml-5 " />
+                    <input type="textarea" placeholder="Type here" class="border border-indigo-600 mt-2 p-10 w-full ml-5 " />
+                    <button type="submit" className='btn btn-info mt-2 justify-items-start'>Submit</button>
                 </div>
-                <div class="card-body ">
-
-                    <form onSubmit={handleSubmit(onSubmit)}>
-                        <p className='text-center font-bold mb-5'>Fill the box and send us your required</p>
-                        <input type="Text" placeholder="Name here" class="input input-bordered input-secondary w-full max-w-xs" required />
-                        <br />
-                        <input type="email" placeholder="Email" className=" my-3 input input-bordered input-secondary w-full max-w-xs" required />
-                        <br />
-                        <input type="password" placeholder="Password" class="input input-bordered input-secondary w-full max-w-xs" required />
-                        <br />
-                        <textarea class="textarea textarea-secondary w-full my-2 max-w-xs" placeholder="Bio"></textarea>
-                        <br />
-                        <input className='btn btn-info w-full max-w-xs mt-2' type="submit" />
-                    </form>
-
-                </div>
+                <div class="col-span-2 ...">02</div>
+                <div class="row-span-2 col-span-2 ...">03</div>
             </div>
         </div>
     );
