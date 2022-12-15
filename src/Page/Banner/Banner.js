@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import image from '../../img/image.png';
+import image from '../../img/image.jpg';
 import ContactUs from '../ContactUs/ContactUs';
 
 const Banner = () => {
@@ -26,7 +26,7 @@ const Banner = () => {
                 </div>
             </div>
             <div className='pl-20 rounded-2'>
-                <img src={image} alt="" className='h-96' />
+                <img src={image} alt="" className='h-68 w-96' />
             </div>
         </div>
     );
