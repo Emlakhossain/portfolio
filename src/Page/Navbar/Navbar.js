@@ -19,9 +19,11 @@ const Navbar = () => {
                 <ul class="menu menu-horizontal p-0">
                     <li><Link to="/">Home</Link></li>
                     <li> <Link to="/about">About Me</Link></li>
+                    <li><Link to="/MyPortfolio">Portfolio</Link></li>
                     <li><Link to="/feature">Feature</Link></li>
                     <li><Link to="/contact">Contact Me</Link></li>
-                    <li><a>Experts</a></li>
+                    <li><Link to="/blog">Blog</Link></li>
+
                 </ul>
             </div>
         </div>

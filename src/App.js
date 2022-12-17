@@ -9,17 +9,22 @@ import AboutMe from './Page/AboutMe/AboutMe';
 import { Route, Router, Routes } from 'react-router-dom';
 import Home from './Page/Home/Home';
 import ContactUs from './Page/ContactUs/ContactUs';
+import Blog from './Page/Blog/Blog';
+import MyPortfolio from './Page/Portfolio/MyPortfolio';
 
 function App() {
   return (
     <div className="App ">
       <Navbar></Navbar>
       <Routes>
+        <Route path='/resume' element={<Banner></Banner>}> Resume</Route>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/about' element={<AboutMe></AboutMe>}></Route>
         <Route path='/feature' element={<Features></Features>}></Route>
+        <Route path='/MyPortfolio' element={<MyPortfolio></MyPortfolio>}></Route>
         <Route path='/contact' element={<ContactUs></ContactUs>}></Route>
-        <Route path='/resume' element={<Banner></Banner>}> Resume</Route>
+        <Route path='/blog' element={<Blog></Blog>}></Route>
+
       </Routes>
       <Footer></Footer>
     </div>

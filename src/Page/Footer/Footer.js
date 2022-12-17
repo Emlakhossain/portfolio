@@ -3,7 +3,7 @@ import image from '../../img/image.png';
 
 const Footer = () => {
     return (
-        <div>
+        <div className='mt-20'>
             <footer class="footer p-10 mt-20 bg-gray-500 text-white justify-between">
                 <div>
                     <span class="footer-title">Services</span>
