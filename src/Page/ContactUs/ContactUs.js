@@ -17,8 +17,8 @@ const ContactUs = () => {
                     </div>
                     <div className='mr-5 mt-5'>
                         <input type="text" placeholder="Subject" class="border border-indigo-600 mt-2 p-2 w-full ml-5" />
-                        <input type="textarea" placeholder="Type here" class="border border-indigo-600 h-32 mt-5 w-full ml-5" />
-                        <button type="submit" className='btn btn-info mt-2 justify-items-start   w-48'>Submit</button>
+                        <textarea type="textarea" placeholder="Type here" class="border border-indigo-600 h-32 mt-5 w-full ml-5 p-2" />
+                        <button type="submit" className='btn btn-info mt-2 grid justify-items-start   w-48 mx-5'>Submit</button>
                     </div>
                 </div>
                 <div class=" mx-10">
