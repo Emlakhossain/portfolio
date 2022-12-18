@@ -4,7 +4,7 @@ import image from '../../img/image.png';
 
 const Navbar = () => {
     return (
-        <div class="navbar bg-base-200">
+        <div class="navbar bg-white">
             <div class="flex-1">
                 <a class="btn btn-ghost normal-case text-xl">
                     <div class="avatar">
@@ -16,7 +16,7 @@ const Navbar = () => {
                 </a>
             </div>
             <div class="flex-none">
-                <ul class="menu menu-horizontal p-0">
+                <ul class="menu menu-horizontal p-0 font-bold">
                     <li><Link to="/">Home</Link></li>
                     <li> <Link to="/about">About Me</Link></li>
                     <li><Link to="/MyPortfolio">Portfolio</Link></li>

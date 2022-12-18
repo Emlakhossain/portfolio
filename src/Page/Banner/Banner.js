@@ -21,7 +21,7 @@ const Banner = () => {
                         <button className='btn btn-info font-bold text-white rounded-full hover:bg-sky-700'>Download CV</button>
                     </div>
                     <div>
-                        <button onClick={contactHandler} className='btn border-solid border-2 border-indigo-600'>Contact Me</button>
+                        <button onClick={contactHandler} className='btn border-solid border-2 rounded-full border-indigo-600'>Contact Me</button>
                     </div>
                 </div>
             </div>
