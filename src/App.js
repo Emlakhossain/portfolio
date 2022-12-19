@@ -10,6 +10,7 @@ import { Route, Router, Routes } from 'react-router-dom';
 import Home from './Page/Home/Home';
 import ContactUs from './Page/ContactUs/ContactUs';
 import MyPortfolio from './Page/Portfolio/MyPortfolio';
+import Blog from './Page/Blog/Blog';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/about' element={<AboutMe></AboutMe>}></Route>
         <Route path='/feature' element={<Features></Features>}></Route>
         <Route path='/MyPortfolio' element={<MyPortfolio></MyPortfolio>}></Route>
+        <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path='/contact' element={<ContactUs></ContactUs>}></Route>
       </Routes>
       <Footer></Footer>

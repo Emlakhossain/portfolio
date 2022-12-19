@@ -7,6 +7,7 @@ import MyPortfolio from '../Portfolio/MyPortfolio';
 import MySkills from '../MySkills/MySkills';
 import Qualification from '../Qualification/Qualification';
 import BannerButtom from '../BannerButtom/BannerButtom';
+import Blog from '../Blog/Blog';
 
 const Home = () => {
     return (
@@ -18,6 +19,7 @@ const Home = () => {
             <Qualification></Qualification>
             <Features></Features>
             <MyPortfolio></MyPortfolio>
+            <Blog></Blog>
             <ContactUs></ContactUs>
 
         </div>
