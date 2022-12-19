@@ -6,7 +6,6 @@ import Features from '../Features/Features';
 import MyPortfolio from '../Portfolio/MyPortfolio';
 import MySkills from '../MySkills/MySkills';
 import Qualification from '../Qualification/Qualification';
-import Blog from '../Blog/Blog';
 import BannerButtom from '../BannerButtom/BannerButtom';
 
 const Home = () => {
@@ -20,7 +19,7 @@ const Home = () => {
             <Features></Features>
             <MyPortfolio></MyPortfolio>
             <ContactUs></ContactUs>
-            <Blog></Blog>
+
         </div>
     );
 };

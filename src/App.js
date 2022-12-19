@@ -9,7 +9,6 @@ import AboutMe from './Page/AboutMe/AboutMe';
 import { Route, Router, Routes } from 'react-router-dom';
 import Home from './Page/Home/Home';
 import ContactUs from './Page/ContactUs/ContactUs';
-import Blog from './Page/Blog/Blog';
 import MyPortfolio from './Page/Portfolio/MyPortfolio';
 
 function App() {
@@ -23,8 +22,6 @@ function App() {
         <Route path='/feature' element={<Features></Features>}></Route>
         <Route path='/MyPortfolio' element={<MyPortfolio></MyPortfolio>}></Route>
         <Route path='/contact' element={<ContactUs></ContactUs>}></Route>
-        <Route path='/blog' element={<Blog></Blog>}></Route>
-
       </Routes>
       <Footer></Footer>
     </div>

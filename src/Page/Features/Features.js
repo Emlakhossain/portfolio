@@ -11,7 +11,7 @@ const Features = () => {
     }, [])
 
     return (
-        <div className='p-5 bg-gray-200 my-10 '>
+        <div className='p-5  my-10 '>
             <div className='pt-10'>
                 <h4 className='font-bold  text-center pl-5 text-info'>FEATURES</h4>
                 <h2 className='text-5xl font-bold text-center pl-5'>What I Do</h2>
