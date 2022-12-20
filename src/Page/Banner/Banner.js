@@ -15,7 +15,7 @@ const Banner = () => {
             <div className='height-300 p-5'>
 
                 <p className='text-start px-5 font-bold text-info text-2xl'>Hi, I,m</p>
-                <h1 className='text-start px-5 font-bold text-5xl'> MD EMLAK HOSSAIN</h1>
+                <h1 className='text-start px-5 font-bold text-5xl'> EMLAK HOSSAIN</h1>
                 <p className='text-start p-5'>I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</p>
                 <div className='flex gap-10'>
                     <div>

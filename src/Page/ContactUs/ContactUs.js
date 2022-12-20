@@ -27,14 +27,14 @@ const ContactUs = () => {
 
                         </div>
                         <div className='text-start'>
-                            <p className='font-bold'>Call Me</p>
+                            <p className='font-bold'>Contact Number</p>
                             <p>01740284295</p>
                             <p>01740284295</p>
                         </div>
                     </div>
                     <div className='flex justify-items-start items-center rounded-r-lg border  border-green-200 gap-5 my-4  p-2'>
                         <div>
-                            <p>Love</p>
+                            <p></p>
                         </div>
                         <div className='text-start'>
                             <p className='font-bold'>Email</p>
@@ -44,7 +44,7 @@ const ContactUs = () => {
                     </div>
                     <div className='flex justify-items-start items-center rounded-r-lg border  border-green-200 gap-5  p-2'>
                         <div>
-                            <p>Love</p>
+                            <p></p>
                         </div>
                         <div className='text-start'>
                             <p className='font-bold'>Location</p>
