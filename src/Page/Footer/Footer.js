@@ -1,6 +1,7 @@
 import React from 'react';
 import image from '../../img/image.png';
 
+
 const Footer = () => {
     return (
         <div className='mt-20'>
@@ -35,6 +36,7 @@ const Footer = () => {
                 </section>
                 <div>
                     <p className='text-white '>All rights Reserved</p>
+
                 </div>
 
             </footer>

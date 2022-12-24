@@ -16,7 +16,7 @@ const Features = () => {
                 <h4 className='font-bold  text-center pl-5 text-info'>FEATURES</h4>
                 <h2 className='text-5xl font-bold text-center pl-5'>What I Do</h2>
             </div>
-            <div className='py-20 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-5'>
+            <div className='py-20 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-10'>
                 {
                     features.map(feature => <Feature
                         feature={feature}
