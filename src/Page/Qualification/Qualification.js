@@ -29,15 +29,16 @@ const Qualification = () => {
                 <div>
                     <h2 className='text-3xl font-bold text-center ml-10'>Experience</h2>
                     <section className='text-start border-l w-3/4  mt-5 m-10 border-l-info pl-2 mr-10'>
+                        <h4 className='font-bold'>Programming with Imran <span className='text-info'>-founder</span></h4>
+                        <p className=''> Creative content creator and <br /> awesome video upload to lovely learners.</p>
+                        <p className='text-info font-bold'>Dec, 2022 - Running</p>
+                    </section>
+                    <section className='text-start border-l w-3/4  mt-5 m-10 border-l-info pl-2 mr-10'>
                         <h4 className='font-bold'>Font End Developer</h4>
                         <p className='font-bold'>MiM Fashion House</p>
                         <p className='text-info font-bold'>2021 - Running</p>
                     </section>
-                    <section className='text-start border-l w-3/4  mt-5 ml-10 border-l-info pl-2 mr-10'>
-                        <h4 className='font-bold'>MERN Stack Developer</h4>
-                        <p className='font-bold'>Paragon Ceramic LTD</p>
-                        <p className='text-info font-bold'>2021 - Running</p>
-                    </section>
+
                 </div>
             </div>
         </div>

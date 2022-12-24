@@ -12,8 +12,8 @@ const ContactUs = () => {
                 <div class=" gap-5">
 
                     <div className='flex justify-between gap-5 ml-5'>
-                        <input type="text" placeholder='Name' className='border border-indigo-600 w-6/12 p-2' />
-                        <input type="email" placeholder='Email' className='border border-indigo-600 w-6/12  p-2 ' />
+                        <input type="text" placeholder='Name' className='border border-indigo-600 w-6/12 p-2' required />
+                        <input type="email" placeholder='Email' className='border border-indigo-600 w-6/12  p-2 ' required />
                     </div>
                     <div className='mr-5 mt-5'>
                         <input type="text" placeholder="Subject" class="border border-indigo-600 mt-2 p-2 w-full ml-5" />
