@@ -2,16 +2,19 @@
     {
         "id": 1,
         "image": "https://i.ibb.co/WVmv46c/hekims-health-doctor-website-template-removebg-preview-2.png",
-        "projectName": "UI Design "
+        "url": "https://charming-yeot-3189ec.netlify.app/",
+        "projectName": "Modern parts "
     },
     {
         "id": 2,
-        "image": "https://i.ibb.co/WVmv46c/hekims-health-doctor-website-template-removebg-preview-2.png",
-        "projectName": "Doctors Chamber Application "
+        "image": "https://i.ibb.co/JnwX4Jt/our-team.jpg",
+        "url": "https://doctors-protal-4fbc0.firebaseapp.com/",
+        "projectName": "Doctors Chamber "
     },
     {
         "id": 3,
         "image": "https://i.ibb.co/WVmv46c/hekims-health-doctor-website-template-removebg-preview-2.png",
+        "url": "https://zingy-begonia-143548.netlify.app/",
         "projectName": "Online Food delivery Application"
     },
     {
