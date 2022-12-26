@@ -1,3 +1,14 @@
+My Projects main concept:
+
+# This projects already have to updating 
+# Some sections are incomplete  
+Notes:
+
+* I using on this project React JS, JavaScript, tailwind-CSS, and backend purpose used Node JS.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
