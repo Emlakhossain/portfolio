@@ -2,6 +2,7 @@ import { ThemeContext, ThemeProvider } from '@emotion/react';
 import { Chip, Icon } from '@mui/material';
 import themes from 'daisyui/src/colors/themes';
 import React from 'react';
+import { FaMapMarker, FaPhoneAlt, FaRegEnvelope } from 'react-icons/fa';
 
 const ContactUs = () => {
     return (
@@ -22,31 +23,31 @@ const ContactUs = () => {
                     </div>
                 </div>
                 <div class=" mx-10">
-                    <div className='flex justify-items-start items-center gap-5 rounded-r-lg border  border-green-200 text-start p-2'>
-                        <div>
-
+                    <div className='flex justify-items-start items-center gap-5 text-start p-2'>
+                        <div className='bg-info p-5 text-white rounded-full'>
+                            <FaPhoneAlt />
                         </div>
-                        <div className='text-start'>
+                        <div className='text-start px-4'>
                             <p className='font-bold'>Contact Number</p>
                             <p>01740284295</p>
                             <p>01740284295</p>
                         </div>
                     </div>
-                    <div className='flex justify-items-start items-center rounded-r-lg border  border-green-200 gap-5 my-4  p-2'>
-                        <div>
-                            <p></p>
+                    <div className='flex justify-items-start items-center  gap-5 my-4  p-2'>
+                        <div className='bg-info p-5 text-white rounded-full'>
+                            <FaRegEnvelope />
                         </div>
-                        <div className='text-start'>
+                        <div className='text-start px-4'>
                             <p className='font-bold'>Email</p>
                             <p>imranmarin1990@gmail.com</p>
                             <p>imranhossain284295@gmail.com</p>
                         </div>
                     </div>
-                    <div className='flex justify-items-start items-center rounded-r-lg border  border-green-200 gap-5  p-2'>
-                        <div>
-                            <p></p>
+                    <div className='flex justify-items-start items-center  gap-5  p-2'>
+                        <div className='bg-info p-5 text-white rounded-full'>
+                            <FaMapMarker />
                         </div>
-                        <div className='text-start'>
+                        <div className='text-start px-4'>
                             <p className='font-bold'>Location</p>
                             <p>Gulshan-2,</p>
                             <p>Dhaka-1212</p>
