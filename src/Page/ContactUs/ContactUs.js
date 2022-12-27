@@ -2,7 +2,8 @@ import { ThemeContext, ThemeProvider } from '@emotion/react';
 import { Chip, Icon } from '@mui/material';
 import themes from 'daisyui/src/colors/themes';
 import React from 'react';
-import { FaMapMarker, FaPhoneAlt, FaRegEnvelope } from 'react-icons/fa';
+import { FaMapMarker, FaRegEnvelope } from 'react-icons/fa';
+import { FiPhoneIncoming } from "react-icons/fi";
 
 const ContactUs = () => {
     return (
@@ -25,7 +26,7 @@ const ContactUs = () => {
                 <div class=" mx-10">
                     <div className='flex justify-items-start items-center gap-5 text-start p-2'>
                         <div className='bg-info p-5 text-white rounded-full'>
-                            <FaPhoneAlt />
+                            <FiPhoneIncoming />
                         </div>
                         <div className='text-start px-4'>
                             <p className='font-bold'>Contact Number</p>
