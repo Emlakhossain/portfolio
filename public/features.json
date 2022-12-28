@@ -6,6 +6,7 @@
     },
     {
         "id": 2,
+        "icons": "https://i.ibb.co/CbJB8d6/ux-designer-removebg-preview.png",
         "featuresName": "Full Stack Developer",
         "discription": "A full-stack developer is a developer or engineer who can build both the front end and the back end of a website. The front end (the parts of a website a user sees and interacts with) and the back end"
     },
@@ -17,6 +18,7 @@
     {
         "id": 4,
         "featuresName": "SEO Expert",
+        "icon": "AiFillSignal",
         "discription": "SEO means Search Engine Optimization and is the process used to optimize a website's technical configuration, content relevance and link popularity so its pages can become easily findable, more relevant and popular towards user search queries."
     },
     {
