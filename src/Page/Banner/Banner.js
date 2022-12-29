@@ -19,7 +19,7 @@ const Banner = () => {
                 <p className='text-start p-5'>I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</p>
                 <div className='flex gap-10'>
                     <div>
-                        <button className='btn btn-info font-bold text-white rounded-full hover:bg-sky-700'>Download CV</button>
+                        <button className='btn btn-info font-bold text-white rounded-full hover:bg-sky-700'><a target="_blank" download="computer" href="https://docs.google.com/document/d/1jNbku6Lf1JsPIhXrtwumMwNAV6j7LpZZlBQdQKDYcjA/edit?usp=sharing">DownLoad CV</a></button>
                     </div>
                     <div>
                         <button onClick={contactHandler} className='btn border-solid border-2 rounded-full border-indigo-600'>Contact Me</button>
