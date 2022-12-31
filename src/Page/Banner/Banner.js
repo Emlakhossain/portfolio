@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import image from '../../img/image.jpg';
+import image from '../../img/about.png';
 import ContactUs from '../ContactUs/ContactUs';
 import resume from '../../img/resume.pdf';
 

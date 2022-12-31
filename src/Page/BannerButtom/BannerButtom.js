@@ -20,8 +20,10 @@ const BannerButtom = () => {
                     <FaAddressCard />
                 </div>
                 <div className='px-4'>
-                    <h4 className='font-bold'>50+ Projects</h4>
-                    <p className='text-info'>Completed</p>
+                    <a target="_blank" href="https://github.com/Emlakhossain?tab=repositories">
+                        <h4 className='font-bold'>50+ Projects</h4>
+                        <p className='text-info'>Completed</p>
+                    </a>
                 </div>
             </div>
             <div className='flex justify-center items-center'>
