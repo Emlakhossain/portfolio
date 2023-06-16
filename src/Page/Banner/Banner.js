@@ -8,8 +8,9 @@ import resume from '../../img/resume.pdf';
 const Banner = () => {
     const navigate = useNavigate();
     const contactHandler = () => {
-        const path = "/contact"
-        navigate(path);
+        const path = '/contact'
+        navigate(path)
+
     }
 
     return (
@@ -28,7 +29,7 @@ const Banner = () => {
                         </a>
                     </div>
                     <div>
-                        <button onClick={contactHandler} className='btn border-solid border-2 rounded-full border-indigo-600'>Contact Me</button>
+                        <button onClick={contactHandler()} className='btn border-solid border-2 rounded-full border-indigo-600'>Contact Me</button>
                     </div>
                 </div>
             </div>

@@ -4,7 +4,7 @@ import image from '../../img/about.png';
 
 const Footer = () => {
     return (
-        <div className='mt-20'>
+        <div className=''>
 
             <footer class=" px-10 py-4 border-t bg-slate-800 text-base-content border-base-300">
                 <section className='my-10'>
