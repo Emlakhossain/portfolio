@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import image from '../../img/about.png';
 import ContactUs from '../ContactUs/ContactUs';
 import resume from '../../img/resume.pdf';
@@ -7,11 +7,7 @@ import resume from '../../img/resume.pdf';
 
 const Banner = () => {
     const navigate = useNavigate();
-    const contactHandler = () => {
-        const path = '/contact'
-        navigate(path)
 
-    }
 
     return (
         <div className='grid  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 py-20 bg-gray-200 '>
@@ -29,7 +25,7 @@ const Banner = () => {
                         </a>
                     </div>
                     <div>
-                        <button onClick={contactHandler()} className='btn border-solid border-2 rounded-full border-indigo-600'>Contact Me</button>
+                        <Link to="/contact">  <button className='btn border-solid border-2 rounded-full border-indigo-600'>Contact Me</button></Link>
                     </div>
                 </div>
             </div>
