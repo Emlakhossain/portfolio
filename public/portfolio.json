@@ -20,16 +20,19 @@
     {
         "id": 4,
         "image": "https://i.ibb.co/WVmv46c/hekims-health-doctor-website-template-removebg-preview-2.png",
+        "url": "https://boring-hamilton-6be0e8.netlify.app/",
         "projectName": "Leaders Board Application"
     },
     {
         "id": 5,
         "image": "https://i.ibb.co/WVmv46c/hekims-health-doctor-website-template-removebg-preview-2.png",
+        "url": "https://marvelous-sawine-598ce7.netlify.app/",
         "projectName": "Rest Country Application"
     },
     {
         "id": 6,
         "image": "https://i.ibb.co/WVmv46c/hekims-health-doctor-website-template-removebg-preview-2.png",
-        "projectName": "Travel Application "
+        "url": "https://affectionate-dijkstra-ae4b54.netlify.app/",
+        "projectName": "Insta Shahor Project "
     }
 ]
