@@ -13,7 +13,12 @@ const AboutMe = () => {
                 <div className='text-start '>
                     <h4 className='text-success font-bold'>My Intro</h4>
                     <h2 className='text-3xl font-bold'>About Me</h2>
-                    <p className='pr-10 mt-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda aliquid repellendus dolores voluptate nobis enim molestias eum ipsa voluptatum architecto quae odio beatae velit est, temporibus laboriosam accusamus quam? Aspernatur dolore animi quod in voluptatem reiciendis incidunt, quisquam, ullam nostrum error ducimus, totam minima. Fugiat voluptatum alias non autem ducimus!</p>
+                    {/* this is my personal intro section and i breafe deatil in here */}
+                    <p className='pr-10 mt-10'>
+                        Hello, I am Emlak Hossain. I hand done my course as a MERN Stock developer and Front-End developer from Programming Hero. Now I'm a prefessional programming minded persaon last 2 years and still.
+                   <br/>
+                        I love coding and create somethink special.When i faced any bug or like that's prblems then i browse on google and try to solve the problem. and personally I like peroblems so that I can learn deffirent new objects.
+                    </p>
 
                     <div className=' gap-10 font-bold mt-10'>
                         <div className='flex justify-start items-center'>
