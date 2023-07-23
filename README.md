@@ -1,12 +1,9 @@
 My Projects main concept:
-
-# This projects already have to updating 
-# Some sections are incomplete  
-Notes:
+# Notes:
 
 * I using on this project React JS, JavaScript, tailwind-CSS, and backend purpose used Node JS.
 
-
+* Here is my deatils information and i have done some of peatures components
 
 
 # Getting Started with Create React App
