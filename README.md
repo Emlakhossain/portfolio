@@ -3,7 +3,7 @@ My Projects main concept:
 
 * I using on this project React JS, JavaScript, tailwind-CSS, and backend purpose used Node JS.
 
-* Here is my deatils information and i have done some of peatures components
+* Here is my deatils information and i have done some of peatures components.
 
 
 # Getting Started with Create React App

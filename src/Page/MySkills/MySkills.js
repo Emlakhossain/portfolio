@@ -3,12 +3,12 @@ import './MySkills.css';
 
 const MySkills = () => {
     return (
-        <div className='my-40 bg-gray-200 py-20 '>
+        <div className='my-40 bg-gray-200 py-20'>
             <div className='text-center pl-5'>
                 <p className='font-bold text-info'>Why You chose me?</p>
                 <h2 className='text-3xl font-bold '>My Skills</h2>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-5 pt-20'>
+            {/* <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-5 pt-20'>
                 <div className='pl-10'>
 
                     <p className='text-2xl font-bold pb-4'>Developer Skills:</p>
@@ -52,6 +52,81 @@ const MySkills = () => {
                     <p><input type="range" min="0" max="100" value="70" class="range range-xs range-success" /></p>
 
                 </div>
+            </div> */}
+           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-8 gap-2 pt-5 items-center '>
+            <div className="card w-36 bg-base-200 shadow-xl">
+                    <figure className="px-10 pt-10">
+                        <img src="https://miro.medium.com/v2/resize:fit:1000/1*Yafu7ihc1LFuP4azerAa4w.png" alt="Shoes" className="rounded-xl" />
+                    </figure>
+                    <div className="card-body items-center text-center">
+                        <h2 className="card-title">HTML5!</h2>
+                    
+                    </div>
+            </div>
+            <div className="card w-36 bg-base-100 shadow-xl">
+                    <figure className="px-10 pt-10">
+                        <img src="https://miro.medium.com/v2/resize:fit:1000/1*Yafu7ihc1LFuP4azerAa4w.png" alt="Shoes" className="rounded-xl" />
+                    </figure>
+                    <div className="card-body items-center text-center">
+                        <h2 className="card-title">Shoes!</h2>
+                    
+                    </div>
+            </div>
+            <div className="card w-36 bg-base-100 shadow-xl">
+                    <figure className="px-10 pt-10">
+                        <img src="https://miro.medium.com/v2/resize:fit:1000/1*Yafu7ihc1LFuP4azerAa4w.png" alt="Shoes" className="rounded-xl" />
+                    </figure>
+                    <div className="card-body items-center text-center">
+                        <h2 className="card-title">Shoes!</h2>
+                    
+                    </div>
+            </div>
+            <div className="card w-36 bg-base-100 shadow-xl">
+                    <figure className="px-10 pt-10">
+                        <img src="https://miro.medium.com/v2/resize:fit:1000/1*Yafu7ihc1LFuP4azerAa4w.png" alt="Shoes" className="rounded-xl" />
+                    </figure>
+                    <div className="card-body items-center text-center">
+                        <h2 className="card-title">Shoes!</h2>
+                    
+                    </div>
+            </div>
+            <div className="card w-36 bg-base-100 shadow-xl">
+                    <figure className="px-10 pt-10">
+                        <img src="https://miro.medium.com/v2/resize:fit:1000/1*Yafu7ihc1LFuP4azerAa4w.png" alt="Shoes" className="rounded-xl" />
+                    </figure>
+                    <div className="card-body items-center text-center">
+                        <h2 className="card-title">Shoes!</h2>
+                    
+                    </div>
+            </div>
+            <div className="card w-36 bg-base-100 shadow-xl">
+                    <figure className="px-10 pt-10">
+                        <img src="https://miro.medium.com/v2/resize:fit:1000/1*Yafu7ihc1LFuP4azerAa4w.png" alt="Shoes" className="rounded-xl" />
+                    </figure>
+                    <div className="card-body items-center text-center">
+                        <h2 className="card-title">Shoes!</h2>
+                    
+                    </div>
+            </div>
+            <div className="card w-36 bg-base-100 shadow-xl">
+                    <figure className="px-10 pt-10">
+                        <img src="https://miro.medium.com/v2/resize:fit:1000/1*Yafu7ihc1LFuP4azerAa4w.png" alt="Shoes" className="rounded-xl" />
+                    </figure>
+                    <div className="card-body items-center text-center">
+                        <h2 className="card-title">Shoes!</h2>
+                    
+                    </div>
+            </div>
+            <div className="card w-36 bg-base-100 shadow-xl">
+                    <figure className="px-10 pt-10">
+                        <img src="https://miro.medium.com/v2/resize:fit:1000/1*Yafu7ihc1LFuP4azerAa4w.png" alt="Shoes" className="rounded-xl" />
+                    </figure>
+                    <div className="card-body items-center text-center">
+                        <h2 className="card-title">Shoes!</h2>
+                    
+                    </div>
+            </div>
+              
             </div>
         </div>
     );
