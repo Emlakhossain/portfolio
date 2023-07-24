@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "skillImg": "https://assets.stickpng.com/images/5847f5bdcef1014c0b5e489c.png"
+    },
+    {
+        "id": 2,
+        "skillImg": "https://w7.pngwing.com/pngs/4/808/png-transparent-css3-css3-logo-logo-language-programming-language-css-3d-icon-thumbnail.png"
+    },
+    {
+        "id": 3,
+        "skillImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToGH1daz2cNiKp6rcqlunawogg8hai2wZqDQ&usqp=CAU"
+    },
+    {
+        "id": 4,
+        "skillImg": "https://www.svgrepo.com/show/374144/typescript.svg"
+    },
+    {
+        "id": 5,
+        "skillImg": "https://p7.hiclipart.com/preview/306/37/167/node-js-javascript-web-application-express-js-computer-software-others.jpg"
+    },
+    {
+        "id": 6,
+        "skillImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU-e102ZVzecz9AH41KKnS4I-NlX5Z5fgvRQ&usqp=CAU"
+    },
+    {
+        "id": 7,
+        "skillImg": "https://www.pngfind.com/pngs/m/638-6386507_10-years-of-experience-react-native-logo-svg.png"
+    },
+    {
+        "id": 8,
+        "skillImg": "https://icons.getbootstrap.com/assets/img/icons-hero.png"
+    },
+    {
+        "id": 9,
+        "skillImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png"
+    },
+    {
+        "id": 10,
+        "skillImg": "https://seeklogo.com/images/F/firebase-logo-402F407EE0-seeklogo.com.png"
+    }
+]
