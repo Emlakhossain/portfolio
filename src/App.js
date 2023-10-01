@@ -11,7 +11,6 @@ import Home from './Page/Home/Home';
 import ContactUs from './Page/ContactUs/ContactUs';
 import MyPortfolio from './Page/Portfolio/MyPortfolio';
 import Blog from './Page/Blog/Blog';
-import Login from './Page/Login/Login';
 
 
 function App() {
@@ -19,14 +18,14 @@ function App() {
     <div className="App ">
       <Navbar></Navbar>
       <Routes>
-        <Route path='/resume' element={<Banner></Banner>}> Resume</Route>
+        <Route path='/resume' element={<Banner></Banner>}>Resume</Route>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/about' element={<AboutMe></AboutMe>}></Route>
         <Route path='/feature' element={<Features></Features>}></Route>
         <Route path='/MyPortfolio' element={<MyPortfolio></MyPortfolio>}></Route>
         <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path='/contact' element={<ContactUs></ContactUs>}></Route>
-        <Route path='/login' element={<Login></Login>}></Route>
+
       </Routes>
       <Footer></Footer>
     </div>
